@@ -7,6 +7,7 @@ This repository is dedicated to organizing and managing educational materials sy
 
 - [개요](#개요-overview)
 - [디렉토리 구조](#디렉토리-구조-directory-structure)
+- [시작하기](#시작하기-getting-started)
 - [사용 방법](#사용-방법-how-to-use)
 - [기여하기](#기여하기-contributing)
 - [라이선스](#라이선스-license)
@@ -29,6 +30,24 @@ education/
 ├── resources/         # 참고 자료 (Reference materials)
 └── projects/          # 프로젝트 (Projects)
 ```
+
+## 시작하기 (Getting Started)
+
+처음 시작하시나요? [시작하기 가이드](GETTING_STARTED.md)를 확인하세요!
+
+New here? Check out the [Getting Started Guide](GETTING_STARTED.md)!
+
+이 가이드에는 다음 내용이 포함되어 있습니다:
+- 저장소 설정 방법
+- 첫 번째 튜토리얼 시작하기
+- 추천 학습 경로
+- 유용한 학습 팁과 자료
+
+The guide includes:
+- How to set up the repository
+- Starting your first tutorial
+- Recommended learning paths
+- Useful study tips and resources
 
 ## 사용 방법 (How to Use)
 
