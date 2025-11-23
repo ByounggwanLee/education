@@ -173,9 +173,12 @@ zip([1, 2], ["a", "b"])  # (1, "a"), (2, "b")
 ## 📚 파일 입출력 (File I/O)
 
 ```python
-# 읽기
+# 읽기 - 전체 내용
 with open("file.txt", "r") as f:
     content = f.read()
+
+# 읽기 - 줄 단위
+with open("file.txt", "r") as f:
     lines = f.readlines()
 
 # 쓰기

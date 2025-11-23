@@ -75,10 +75,13 @@ print("\n=== 프로필 ===")
 create_profile(name="홍길동", age=25, job="개발자")
 
 # 람다 함수 (Lambda Function)
-square = lambda x: x ** 2
+# 일반 함수로 정의하는 것이 더 권장됨
+def square(x):
+    return x ** 2
+
 print(f"\n5의 제곱: {square(5)}")
 
-# 리스트와 람다 함수
+# 람다 함수는 map, filter 등과 함께 사용할 때 유용
 numbers = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x ** 2, numbers))
 print(f"제곱 리스트: {squared}")

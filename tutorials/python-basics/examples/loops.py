@@ -64,6 +64,7 @@ for num in range(1, 11):
 
 # 리스트 컴프리헨션 (List Comprehension)
 print("\n=== 제곱수 리스트 ===")
+# 형식: [표현식 for 항목 in 반복가능객체]
 squares = [x**2 for x in range(1, 6)]
 print(squares)
 
